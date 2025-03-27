@@ -23,12 +23,12 @@ const divide = (arr, n) => {
   return result;
 };
 
-// Example usage:
+/*Example usage:
 const arr = [1, 2, 3, 4, 1, 0, 2, 2];
 const n = 5;
 console.log(divide(arr, n)); // Output: [[1, 2], [3], [4, 1, 0], [2, 2]]
 
-
+*/
 If using prompt:
 const n = parseInt(prompt("Enter n: "));
 alert(JSON.stringify(divide(arr, n)));
